@@ -1,0 +1,86 @@
+body {
+    margin: 20px;
+    font-family: serif;
+}
+
+.avatar {
+    width: 125px;
+    height: 140px;
+    margin: auto 0; 
+}
+
+.card {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #003742;
+    color: #94d2bd;
+    border-left: 5px solid #94d2bd;
+    border-top: 5px solid #94d2bd;
+    display: block;
+}
+
+.info {
+    display: flex;
+    display: block;
+    padding: 0;
+}
+
+.infoh:hover {
+    text-shadow: #487d6b 5px 5px 2px;
+    transform: scale(1.05);
+}
+
+.contact {
+    padding-top: 0px;
+    font-size: 11px;
+    opacity: 0;
+}
+
+.fade-in-image {
+    opacity: 0;
+    animation: fadeIn 3s ease 0.1s forwards;
+}
+
+.fade-in-text1 {
+    opacity: 0;
+    animation: fadeIn 3s ease 0.3s forwards;
+}
+
+.fade-in-text2 {
+    opacity: 0;
+    animation: fadeIn 3s ease 0.5s forwards;
+}
+
+.fade-in-text3 {
+    opacity: 0;
+    animation: fadeIn 3s ease 0.7s forwards;
+}
+
+.fade-in-text4 {
+    opacity: 0;
+    animation: fadeIn 3s ease 0.9s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
